@@ -1,0 +1,14 @@
+<p-panel [showHeader]="false" class="p-1">
+  <h1>Pipes Personalizados</h1>
+  <p>
+    Pipes Personalizados - estos son personalizados por {{ 'nosotros' | toggleCase:isUpperCase }}
+  </p>
+</p-panel>
+
+<p-toolbar>
+  <div class="p-toolbar-group-start">
+    <p-button (onClick)="toggleUpperCase()" label="Toggle Uppercase" icon="pi pi-plus" class="mr-2"></p-button>
+    <p-button label="Upload" icon="pi pi-upload" styleClass="p-button-success"></p-button>
+  </div>
+
+</p-toolbar>

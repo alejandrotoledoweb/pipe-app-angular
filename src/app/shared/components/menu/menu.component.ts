@@ -20,8 +20,8 @@ export class MenuComponent implements OnInit {
         ]
       },
       {
-        label: 'Pipes Personalizados ', icon: 'pi pi-fw pi-download', items: [
-          { label: "Personalizado 1", icon: "pi pi-align-left" }]
+        label: 'Pipes Personalizados ', icon: 'pi pi-cog', items: [
+          { label: "Custom pipes", icon: "pi pi-cog", routerLink: 'custom' }]
       }
     ]
   }
